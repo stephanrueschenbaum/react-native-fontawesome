@@ -146,7 +146,7 @@ FontAwesomeIcon.propTypes = {
   color: _propTypes["default"].string,
   secondaryColor: _propTypes["default"].string,
   secondaryOpacity: _propTypes["default"].number,
-  style: _propTypes["default"].oneOfType([_propTypes["default"].shape(_objectSpread({}, _reactNative.ViewPropTypes.style)), _propTypes["default"].array]),
+  style: _propTypes["default"].oneOfType([_propTypes["default"].shape(_objectSpread({}, _reactNative.StyleSheet.style)), _propTypes["default"].array]),
   icon: _propTypes["default"].oneOfType([_propTypes["default"].object, _propTypes["default"].array, _propTypes["default"].string]),
   mask: _propTypes["default"].oneOfType([_propTypes["default"].object, _propTypes["default"].array, _propTypes["default"].string]),
   transform: _propTypes["default"].oneOfType([_propTypes["default"].string, _propTypes["default"].object])
